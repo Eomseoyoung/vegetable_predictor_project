@@ -43,6 +43,9 @@
 > 피쳐 삭제, 다중공선성과 상관계수 분석을 바탕으로 다중공선성 분석으로 비슷한 의미를 갖는 피쳐 삭제상관계수 분석으로 학습에 불필요한 피쳐 삭제
 > 
 > 두가지 분석으로 삭제한 후 score와 로스를 하나하나 비교, 단순 계수를 바탕으로 삭제하지 않고 삭제해야 좋다 나오는 계수여도 학습에서는 다르게 활용될 수 있음을 확인
+>
+> <img width="820" height="439" alt="image" src="https://github.com/user-attachments/assets/41c11423-6f48-42a4-a2ba-848b55be9a1f" />
+
 
 > ### 모델 학습
 > 
@@ -58,10 +61,13 @@
 > 
 > polynomial(다항회귀)이라는 방법을 적용
 > 
-> polynomial을 적용하고 그리드서치까지 마치니 r2score 0.9를 넘김
+>     polynomial을 적용하고 그리드서치까지 마치니 r2score 0.9를 넘김
+> <img width="435" height="295" alt="image" src="https://github.com/user-attachments/assets/f10e11de-29b0-488a-928e-8cf70e1ada00" />
+
 
 
 > ### 결과
+><img width="776" height="365" alt="image" src="https://github.com/user-attachments/assets/47aac659-f1dd-4ea4-86e1-aa5aa9fecade" />
 >
 > 실제 값에 근사하게 예측 값이 출력되는 것을 확인
 
