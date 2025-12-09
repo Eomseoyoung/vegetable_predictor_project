@@ -1,4 +1,4 @@
-> # vegetable_predictor_project
+> # Vegetable_Predictor_Project
 >
 > (광주인공지능사관학교 1차프로젝트)
 
